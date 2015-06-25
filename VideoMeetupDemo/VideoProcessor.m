@@ -143,7 +143,8 @@ dispatch_queue_t movieWritingQueue;
     }
     
     CMVideoDimensions dimensions = CMVideoFormatDescriptionGetDimensions(formatDescription);
-	int numPixels = dimensions.width * dimensions.height;
+    CGSize videoSize = CGSizeMake(dimensions.width / 2, dimensions.height / 2);
+	int numPixels = videoSize.width * videoSize.height;
     
     // This bitrate matches the quality produced by AVCaptureSessionPresetHigh.
     float bitsPerPixel = 11.4;
@@ -151,8 +152,8 @@ dispatch_queue_t movieWritingQueue;
     
     NSDictionary *videoCompressionSettings = [NSDictionary dictionaryWithObjectsAndKeys:
                                               AVVideoCodecH264, AVVideoCodecKey,
-                                              [NSNumber numberWithInteger:dimensions.width], AVVideoWidthKey,
-                                              [NSNumber numberWithInteger:dimensions.height], AVVideoHeightKey,
+                                              [NSNumber numberWithInteger:videoSize.width], AVVideoWidthKey,
+                                              [NSNumber numberWithInteger:videoSize.height], AVVideoHeightKey,
                                               [NSDictionary dictionaryWithObjectsAndKeys:
                                                [NSNumber numberWithInteger:bitsPerSecond], AVVideoAverageBitRateKey,
                                                [NSNumber numberWithInteger:FRAME_RATE], AVVideoMaxKeyFrameIntervalKey,
