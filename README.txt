@@ -1,0 +1,1 @@
+Crude example of using built-in and custom video recorders via AVFoundation. This was hastily tested on an iPhone 6 so YMMV. Playback is not smooth. It's left to the downloader to smooth it out. That's part of the fun of AVFoundation.
