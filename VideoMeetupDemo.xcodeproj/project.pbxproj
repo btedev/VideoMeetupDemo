@@ -7,10 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41344ECF1B3B5D3E005B9857 /* SimpleRecorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41344ECE1B3B5D3E005B9857 /* SimpleRecorderViewController.m */; };
+		41344ED11B3B5F09005B9857 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41344ED01B3B5F09005B9857 /* MobileCoreServices.framework */; };
+		41344ED31B3B65AB005B9857 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41344ED21B3B65AB005B9857 /* AVFoundation.framework */; };
+		41344ED51B3B7A0C005B9857 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41344ED41B3B7A0C005B9857 /* MediaPlayer.framework */; };
+		41344ED81B3C4C7E005B9857 /* AVFRecorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41344ED71B3C4C7E005B9857 /* AVFRecorderViewController.m */; };
+		41344EDB1B3C4C96005B9857 /* VideoProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 41344EDA1B3C4C96005B9857 /* VideoProcessor.m */; };
+		41344EDD1B3C68F9005B9857 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41344EDC1B3C68F9005B9857 /* CoreVideo.framework */; };
+		41344EE01B3C8F05005B9857 /* IHATCS__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 41344EDF1B3C8EF0005B9857 /* IHATCS__.TTF */; };
+		41344EE61B3C9656005B9857 /* Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = 41344EE51B3C9656005B9857 /* Filter.m */; };
+		41344EE91B3C97D2005B9857 /* NoGreenFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 41344EE81B3C97D2005B9857 /* NoGreenFilter.m */; };
+		41344EEC1B3C99D7005B9857 /* InverseFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 41344EEB1B3C99D7005B9857 /* InverseFilter.m */; };
+		41344EEF1B3C9B8C005B9857 /* SwapFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 41344EEE1B3C9B8C005B9857 /* SwapFilter.m */; };
 		41D94DB61B39A4FD0056F910 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D94DB51B39A4FD0056F910 /* main.m */; };
 		41D94DB91B39A4FD0056F910 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D94DB81B39A4FD0056F910 /* AppDelegate.m */; };
 		41D94DBC1B39A4FD0056F910 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D94DBB1B39A4FD0056F910 /* MasterViewController.m */; };
-		41D94DBF1B39A4FD0056F910 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D94DBE1B39A4FD0056F910 /* DetailViewController.m */; };
 		41D94DC21B39A4FD0056F910 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D94DC01B39A4FD0056F910 /* Main.storyboard */; };
 		41D94DC41B39A4FD0056F910 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41D94DC31B39A4FD0056F910 /* Images.xcassets */; };
 		41D94DC71B39A4FD0056F910 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41D94DC51B39A4FD0056F910 /* LaunchScreen.xib */; };
@@ -28,6 +39,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		41344ECD1B3B5D3E005B9857 /* SimpleRecorderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleRecorderViewController.h; sourceTree = "<group>"; };
+		41344ECE1B3B5D3E005B9857 /* SimpleRecorderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleRecorderViewController.m; sourceTree = "<group>"; };
+		41344ED01B3B5F09005B9857 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		41344ED21B3B65AB005B9857 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		41344ED41B3B7A0C005B9857 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		41344ED61B3C4C7E005B9857 /* AVFRecorderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVFRecorderViewController.h; sourceTree = "<group>"; };
+		41344ED71B3C4C7E005B9857 /* AVFRecorderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVFRecorderViewController.m; sourceTree = "<group>"; };
+		41344ED91B3C4C96005B9857 /* VideoProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoProcessor.h; sourceTree = "<group>"; };
+		41344EDA1B3C4C96005B9857 /* VideoProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoProcessor.m; sourceTree = "<group>"; };
+		41344EDC1B3C68F9005B9857 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		41344EDF1B3C8EF0005B9857 /* IHATCS__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = IHATCS__.TTF; sourceTree = "<group>"; };
+		41344EE41B3C9656005B9857 /* Filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Filter.h; sourceTree = "<group>"; };
+		41344EE51B3C9656005B9857 /* Filter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Filter.m; sourceTree = "<group>"; };
+		41344EE71B3C97D2005B9857 /* NoGreenFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoGreenFilter.h; sourceTree = "<group>"; };
+		41344EE81B3C97D2005B9857 /* NoGreenFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoGreenFilter.m; sourceTree = "<group>"; };
+		41344EEA1B3C99D7005B9857 /* InverseFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InverseFilter.h; sourceTree = "<group>"; };
+		41344EEB1B3C99D7005B9857 /* InverseFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InverseFilter.m; sourceTree = "<group>"; };
+		41344EED1B3C9B8C005B9857 /* SwapFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwapFilter.h; sourceTree = "<group>"; };
+		41344EEE1B3C9B8C005B9857 /* SwapFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwapFilter.m; sourceTree = "<group>"; };
 		41D94DB01B39A4FD0056F910 /* VideoMeetupDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoMeetupDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D94DB41B39A4FD0056F910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41D94DB51B39A4FD0056F910 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -35,8 +65,6 @@
 		41D94DB81B39A4FD0056F910 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		41D94DBA1B39A4FD0056F910 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		41D94DBB1B39A4FD0056F910 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		41D94DBD1B39A4FD0056F910 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		41D94DBE1B39A4FD0056F910 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		41D94DC11B39A4FD0056F910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41D94DC31B39A4FD0056F910 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		41D94DC61B39A4FD0056F910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -50,6 +78,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41344EDD1B3C68F9005B9857 /* CoreVideo.framework in Frameworks */,
+				41344ED51B3B7A0C005B9857 /* MediaPlayer.framework in Frameworks */,
+				41344ED31B3B65AB005B9857 /* AVFoundation.framework in Frameworks */,
+				41344ED11B3B5F09005B9857 /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +95,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41344EC81B3B5C07005B9857 /* Simple Recorder */ = {
+			isa = PBXGroup;
+			children = (
+				41344ECD1B3B5D3E005B9857 /* SimpleRecorderViewController.h */,
+				41344ECE1B3B5D3E005B9857 /* SimpleRecorderViewController.m */,
+			);
+			name = "Simple Recorder";
+			sourceTree = "<group>";
+		};
+		41344EC91B3B5C11005B9857 /* AVFoundation Recorder */ = {
+			isa = PBXGroup;
+			children = (
+				41344ED61B3C4C7E005B9857 /* AVFRecorderViewController.h */,
+				41344ED71B3C4C7E005B9857 /* AVFRecorderViewController.m */,
+				41344ED91B3C4C96005B9857 /* VideoProcessor.h */,
+				41344EDA1B3C4C96005B9857 /* VideoProcessor.m */,
+				41344EE41B3C9656005B9857 /* Filter.h */,
+				41344EE51B3C9656005B9857 /* Filter.m */,
+				41344EE71B3C97D2005B9857 /* NoGreenFilter.h */,
+				41344EE81B3C97D2005B9857 /* NoGreenFilter.m */,
+				41344EEA1B3C99D7005B9857 /* InverseFilter.h */,
+				41344EEB1B3C99D7005B9857 /* InverseFilter.m */,
+				41344EED1B3C9B8C005B9857 /* SwapFilter.h */,
+				41344EEE1B3C9B8C005B9857 /* SwapFilter.m */,
+			);
+			name = "AVFoundation Recorder";
+			sourceTree = "<group>";
+		};
+		41344EDE1B3C8ED5005B9857 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41344EDC1B3C68F9005B9857 /* CoreVideo.framework */,
+				41344ED41B3B7A0C005B9857 /* MediaPlayer.framework */,
+				41344ED21B3B65AB005B9857 /* AVFoundation.framework */,
+				41344ED01B3B5F09005B9857 /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		41D94DA71B39A4FD0056F910 = {
 			isa = PBXGroup;
 			children = (
@@ -84,15 +155,16 @@
 		41D94DB21B39A4FD0056F910 /* VideoMeetupDemo */ = {
 			isa = PBXGroup;
 			children = (
+				41344EC91B3B5C11005B9857 /* AVFoundation Recorder */,
+				41344EC81B3B5C07005B9857 /* Simple Recorder */,
 				41D94DB71B39A4FD0056F910 /* AppDelegate.h */,
 				41D94DB81B39A4FD0056F910 /* AppDelegate.m */,
 				41D94DBA1B39A4FD0056F910 /* MasterViewController.h */,
 				41D94DBB1B39A4FD0056F910 /* MasterViewController.m */,
-				41D94DBD1B39A4FD0056F910 /* DetailViewController.h */,
-				41D94DBE1B39A4FD0056F910 /* DetailViewController.m */,
 				41D94DC01B39A4FD0056F910 /* Main.storyboard */,
 				41D94DC31B39A4FD0056F910 /* Images.xcassets */,
 				41D94DC51B39A4FD0056F910 /* LaunchScreen.xib */,
+				41344EDE1B3C8ED5005B9857 /* Frameworks */,
 				41D94DB31B39A4FD0056F910 /* Supporting Files */,
 			);
 			path = VideoMeetupDemo;
@@ -102,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				41D94DB41B39A4FD0056F910 /* Info.plist */,
+				41344EDF1B3C8EF0005B9857 /* IHATCS__.TTF */,
 				41D94DB51B39A4FD0056F910 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -206,6 +279,7 @@
 			files = (
 				41D94DC21B39A4FD0056F910 /* Main.storyboard in Resources */,
 				41D94DC71B39A4FD0056F910 /* LaunchScreen.xib in Resources */,
+				41344EE01B3C8F05005B9857 /* IHATCS__.TTF in Resources */,
 				41D94DC41B39A4FD0056F910 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,10 +298,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41344ECF1B3B5D3E005B9857 /* SimpleRecorderViewController.m in Sources */,
+				41344EE61B3C9656005B9857 /* Filter.m in Sources */,
+				41344EEF1B3C9B8C005B9857 /* SwapFilter.m in Sources */,
 				41D94DB91B39A4FD0056F910 /* AppDelegate.m in Sources */,
+				41344EDB1B3C4C96005B9857 /* VideoProcessor.m in Sources */,
 				41D94DBC1B39A4FD0056F910 /* MasterViewController.m in Sources */,
 				41D94DB61B39A4FD0056F910 /* main.m in Sources */,
-				41D94DBF1B39A4FD0056F910 /* DetailViewController.m in Sources */,
+				41344EEC1B3C99D7005B9857 /* InverseFilter.m in Sources */,
+				41344EE91B3C97D2005B9857 /* NoGreenFilter.m in Sources */,
+				41344ED81B3C4C7E005B9857 /* AVFRecorderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +502,7 @@
 				41D94DD81B39A4FD0056F910 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41D94DD91B39A4FD0056F910 /* Build configuration list for PBXNativeTarget "VideoMeetupDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +511,7 @@
 				41D94DDB1B39A4FD0056F910 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
